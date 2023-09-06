@@ -19,11 +19,7 @@
   <video src="./images/city.mp4" playsinline autoplay loop muted></video>
   <script type="module" src="/src/main.js"></script>
   <script>
-    document.addEventListener('DOMContentLoaded', (event) => {
-      particlesJS.load('wrapper', 'particlesjs-config.json', function() {
-        console.log('callback - particles.js config loaded');
-      });
-    });
-</script>
+    particlesJS.load('wrapper', '/particlesjs-config.json');
+  </script>
 </body>
 </html>
