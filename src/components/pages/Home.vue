@@ -27,4 +27,13 @@ export default {
     p {
         font-size: 4.5rem;
     }
+
+@media(max-width: 768px){
+    h1 {
+        font-size: 2.5rem;
+    }
+    p {
+        font-size: 1.5rem;
+    }
+}
 </style>

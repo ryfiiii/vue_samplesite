@@ -43,7 +43,7 @@ export default {
     }
     .card {
         margin-top: 50px;
-        padding: 25px 300px;
+        padding: 25px 200px;
         background: rgba(255, 255, 255, 0.26);
         border-radius: 16px;
         box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
@@ -85,4 +85,33 @@ export default {
     textarea:focus {
         border: 3px solid rgb(0, 92, 222);
     }
+
+@media(max-width: 768px){
+    .card {
+        padding: 25px 10px;
+    }    
+    h1 {
+        font-size: 1.5rem;
+    }
+    th{
+        font-size: 1.1rem;
+    }
+    input {
+        color: black;
+        padding: 10px 20px;
+        border-radius: 8px;
+        outline: none;
+        border: 3px solid rgb(136, 186, 255);
+    }
+    input:focus {
+        border: 3px solid rgb(0, 92, 222);
+    }
+    textarea {
+        color: black;
+        padding: 40px 30px;
+        border-radius: 8px;
+        outline: none;
+        border: 3px solid rgb(136, 186, 255);
+    }
+}
 </style>

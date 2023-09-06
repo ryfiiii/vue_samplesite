@@ -48,4 +48,16 @@ export default {
         margin-right: 20px;
     }
 
+    @media(max-width: 768px){
+    p {
+        font-size: 1.2rem;
+        margin-left: 10px;
+    }
+
+    li {
+        font-size: 1.1rem;
+        margin-right: 8px;
+    }
+}
+
 </style>

@@ -48,7 +48,7 @@ export default {
 
 .glass-card {
     margin-top: 50px;
-    padding: 25px 300px;
+    padding: 25px 200px;
     background: rgba(255, 255, 255, 0.26);
     border-radius: 16px;
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
@@ -89,5 +89,28 @@ export default {
 .company th, .company td {
     border: 2px solid white;
     padding: 10px;
+}
+
+@media(max-width: 768px){
+    .glass-card {
+        margin-top: 30px;
+        padding: 40px 30px;
+    }
+    .motto h1 {
+        font-size: 1.5rem;
+    }
+
+    .motto p {
+        font-size: 1.3rem;
+    }
+
+    .company h1 {
+        margin-top: 30px;
+        font-size: 1.5rem;
+    }
+
+    .company th, .company td {
+        padding: 5px;
+    }
 }
 </style>
