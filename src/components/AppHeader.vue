@@ -35,6 +35,7 @@ export default {
         width: 100%;
         font-family: 'M PLUS Rounded 1c', sans-serif;
         position: absolute;
+        z-index: 1;
     }
     p {
         font-size: 2.0rem;
