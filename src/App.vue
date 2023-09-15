@@ -3,7 +3,11 @@
   <AppHeader />
 
   <main>
-    <router-view></router-view>
+    <router-view v-slot="{ Component }">
+      <transition name="fade">
+        <component :is="Component" />
+      </transition>
+    </router-view>
   </main>
 
   <AppFooter />
@@ -12,18 +16,26 @@
 <script>
 import AppHeader from "./components/AppHeader.vue"
 import AppFooter from "./components/AppFooter.vue"
-import Home from "./components/pages/Home.vue"
-import About from "./components/pages/About.vue"
-import Contact from "./components/pages/Contact.vue"
 
 export default {
   name: 'App',
   components: {
     AppHeader,
     AppFooter,
-    Home,
-    About,
-    Contact,
   }
 }
 </script>
+
+<style>
+.fade-enter-active, .fade-leave-active {
+  transition: opacity 0.5s;
+}
+
+.fade-enter-from, .fade-leave-to {
+  opacity: 0;
+}
+
+.fade-enter-to, .fade-leave-from {
+  opacity: 1;
+}
+</style>
