@@ -1,5 +1,5 @@
 <template>
-    <div id="contact">
+    <div id="contact" class="animate__animated animate__fadeIn animate__slow">
         <div class="card">
             <h1>お問い合わせ</h1>
             <form action="/">

@@ -1,5 +1,5 @@
 <template>
-    <div id="home">
+    <div id="home" class="animate__animated animate__fadeInUpBig">
         <h1>サンプル株式会社</h1>
         <p>~明日の未来を作る~</p>
     </div>

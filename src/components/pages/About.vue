@@ -1,5 +1,5 @@
 <template>
-    <div id="about">
+    <div id="about" class="animate__animated animate__fadeIn animate__slow">
         <div class="glass-card">
             <div class="motto">
                 <h1>モットー</h1>
